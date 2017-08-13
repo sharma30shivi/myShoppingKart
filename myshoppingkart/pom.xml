@@ -26,7 +26,13 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
+<!-- Link Backend Project -->
+<dependency>
+<groupId>com.shivi</groupId>
+	<artifactId>shoppingbackend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
 		<!-- Java EE Api -->
 		<dependency>
 			<groupId>javax</groupId>
