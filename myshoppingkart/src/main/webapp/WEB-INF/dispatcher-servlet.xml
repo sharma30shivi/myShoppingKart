@@ -12,7 +12,7 @@
    ">
    
    <context:component-scan base-package="com.shivi.myshoppingkart.controller"></context:component-scan>
-   <context:component-scan base-package="com.shivi.shoppingbackend.daoimpl"></context:component-scan>
+   <context:component-scan base-package="com.shivi.shoppingbackend"></context:component-scan>
    
    <bean id="viewResolver"
    	class="org.springframework.web.servlet.view.InternalResourceViewResolver">
