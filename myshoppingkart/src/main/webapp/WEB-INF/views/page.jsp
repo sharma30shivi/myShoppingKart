@@ -23,11 +23,19 @@
 <title>My ShoppingKart - ${title}</title>
 <script type="text/javascript">
 	window.menu = '${title}';
+	
+	window.contextRoot = '${contextRoot}';
 </script>
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
+
 <!-- Bootstrap Readable theme -->
 <link href="${css}/bootsrap-readable-theme.css" rel="stylesheet">
+
+<!-- Bootstrap DataTables theme -->
+<link href="${css}/dataTables.bootsrap.css" rel="stylesheet">
+
+
 <!-- Custom CSS -->
 <link href="${css}/myapp.css" rel="stylesheet">
 
@@ -74,6 +82,14 @@
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="${js}/bootstrap.min.js"></script>
+	
+	<!-- Data TAble Plugin -->
+	<script src="${js}/jquery.dataTables.js"></script>
+	
+	<!-- Data Bootsrap Plugin -->
+	<script src="${js}/dataTables.bootstrap.js"></script>
+	
+	<!-- Self Coded js -->
 	<script src="${js}/myapp.js"></script>
 	</div>
 </body>
