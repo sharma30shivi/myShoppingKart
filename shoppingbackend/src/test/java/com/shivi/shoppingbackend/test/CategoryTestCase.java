@@ -1,4 +1,4 @@
-package com.shivi.shoppingbackend.test;
+/*package com.shivi.shoppingbackend.test;
 
 
 
@@ -29,7 +29,7 @@ public class CategoryTestCase {
 		categoryDAO = (CategoryDAO)context.getBean("categoryDAO");
 	}
 	
-/*	@Test
+	@Test
 	public void testAddCategory(){
 		
 		category = new Category();
@@ -40,18 +40,18 @@ public class CategoryTestCase {
 		
 		
 		assertEquals("successfully added a category inside the table", true, categoryDAO.add(category));
-	}*/
+	}
 	
-	/*@Test
+	@Test
 	public void testGetCategory(){
 		
 		category= categoryDAO.get(3);
 		
 		assertEquals("successfully fetched a single  category from the table", "Mobile", category.getName());		
 		
-	}*/
+	}
 	
-/*	@Test
+	@Test
 	public void testUpdateCategory(){
 		
 		category= categoryDAO.get(3);
@@ -60,8 +60,8 @@ public class CategoryTestCase {
 		assertEquals("successfully update a single  category in the table", true, categoryDAO.update(category));		
 		
 	}
-	*/
-/*		@Test
+	
+		@Test
 	public void testDeleteCategory(){
 		
 		category= categoryDAO.get(3);
@@ -69,14 +69,14 @@ public class CategoryTestCase {
 		assertEquals("successfully deleted a single  category in the table", true, categoryDAO.delete(category));		
 		
 	}
-	*/
-	/*	@Test
+	
+		@Test
 	public void testListCategory(){
 		
 		
 		assertEquals("successfully fetched the listof categories from table", 2, categoryDAO.list().size());		
 		
-	}*/
+	}
 	
 	@Test
 	public void testCRUDCategory(){
@@ -104,10 +104,10 @@ public class CategoryTestCase {
 		category= categoryDAO.get(2);
 		category.setName("Televison");
 		
-		/*//deleting the category
+		//deleting the category
 		category= categoryDAO.get(2);
 		assertEquals("successfully deleted a single  category in the table", true, categoryDAO.delete(category));		
-		*/
+		
 		//getting the list of category
 		assertEquals("successfully fetched the listof categories from table", 6, categoryDAO.list().size());		
 		
@@ -116,3 +116,4 @@ public class CategoryTestCase {
 	
 
 }
+*/

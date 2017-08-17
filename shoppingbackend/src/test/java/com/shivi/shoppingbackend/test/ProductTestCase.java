@@ -1,4 +1,4 @@
-package com.shivi.shoppingbackend.test;
+/*package com.shivi.shoppingbackend.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -29,7 +29,7 @@ private static AnnotationConfigApplicationContext context;
 	}
 	
 	
-	/*@Test
+	@Test
 	public void testCRUDProduct(){
 		
 		//add Operation
@@ -60,7 +60,7 @@ private static AnnotationConfigApplicationContext context;
 		assertEquals("successfully fetched the listof categories from table", 6, productDAO.list().size());		
 		
 	}
-	*/
+	
 	
 	@Test
 	public void testListActiveProducts(){
@@ -77,3 +77,4 @@ private static AnnotationConfigApplicationContext context;
 		assertEquals("successfully fetched the listof categories from table", 3, productDAO.getLatestActiveProducts(3).size());		
 			}
 }
+*/
